@@ -1,0 +1,133 @@
+@import "_Mollenhauer-null.scss";
+@import "_Mollenhauer-mixin.scss";
+// /* Null-Style */
+
+$colorWhite: #fff;
+$colorNightBlue: #06255B;
+d
+html,
+body {
+    font-family: "Lato", sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+._countainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    padding: 0px 15px;
+    box-sizing: content-box;
+    margin: 0 auto;
+}
+
+////// HEADER ////////////////
+.header {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+	background: none;
+}
+
+.header__countainer {
+}
+
+.header__body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding-top: 55px;
+}
+
+.header__logo {
+	img {
+		width: 263px;
+		height: 46px;
+	}
+}
+
+.header__navigation {
+}
+
+.header__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px;
+}
+
+.header__item {
+	a {
+        @include text-15px;
+	}
+}
+
+.header__button-column {
+    display: flex;
+    gap: 16px;
+}
+
+.header__button {
+    background-color: #DA5D24;
+    padding: 19px 18px;
+
+    a {
+        @include text-15px;
+        font-weight: 600;
+        letter-spacing: 0.3;
+    }
+}
+
+.header__lang-column {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: $colorWhite;
+    padding: 18px 15px;
+}
+
+.header__lang {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+    img {
+        width: 12px;
+        height: 12px;
+    }
+
+    a {
+        @include text-15px;
+        color: $colorNightBlue;
+    }
+}
+
+.main {
+    background: linear-gradient(180deg, #06255B 0%, rgba(6, 37, 91, 0.00) 100%);
+}
+
+.main__countainer {
+}
+
+.main__body {
+}
+
+.main__title {
+}
+
+.main__text {
+}
+
+.main__button-column {
+}
+
+.main__button {
+}
