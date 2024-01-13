@@ -104,7 +104,7 @@ h6 {
   src: local("MinionPro"), url(./fonts/MinionPro-MediumIt.woff) format(woff);
   font-weight: 500;
 }
-d html,
+html,
 body {
   font-family: "Lato", sans-serif;
   height: 100%;
