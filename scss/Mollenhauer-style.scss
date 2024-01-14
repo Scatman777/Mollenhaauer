@@ -22,7 +22,7 @@ body {
 ._countainer {
     display: flex;
     flex-direction: column;
-    max-width: 1600px;
+    max-width: 1700px;
     padding: 0px 15px;
     box-sizing: content-box;
     margin: 0 auto;
@@ -46,7 +46,7 @@ body {
 .header__countainer {
     display: flex;
     flex-direction: column;
-    max-width: 1600px;
+    max-width: 1700px;
     padding-left: 15px;
     box-sizing: content-box;
     margin: 0 auto;
@@ -56,7 +56,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-    padding-top: 55px;
+    padding-top: 37px;
 }
 
 .header__logo {
@@ -128,12 +128,25 @@ body {
 }
 
 .main__countainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1700px;
+    padding: 0px 316px 0px 166px;
+    box-sizing: content-box;
+    margin: 0 auto;
 }
 
 .main__body {
+    margin: 140px 0px 340px;
 }
 
 .main__title {
+    @include h1;
+
+    span {
+        @include h1;
+        font-weight: 700;
+    }
 }
 
 .main__text {

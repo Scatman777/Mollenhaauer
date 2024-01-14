@@ -107,7 +107,7 @@ body {
 ._countainer {
   display: flex;
   flex-direction: column;
-  max-width: 1600px;
+  max-width: 1700px;
   padding: 0px 15px;
   box-sizing: content-box;
   margin: 0 auto;
@@ -130,7 +130,7 @@ body {
 .header__countainer {
   display: flex;
   flex-direction: column;
-  max-width: 1600px;
+  max-width: 1700px;
   padding-left: 15px;
   box-sizing: content-box;
   margin: 0 auto;
@@ -140,7 +140,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 55px;
+  padding-top: 37px;
 }
 
 .header__logo {
@@ -158,12 +158,11 @@ body {
 }
 
 .header__item a {
-  color: #FFF;
   font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
-  letter-spacing: 0.2px;
+  color: #fff;
 }
 
 .header__button-column {
@@ -176,12 +175,11 @@ body {
   padding: 19px 18px;
 }
 .header__button a {
-  color: #FFF;
   font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
-  letter-spacing: 0.2px;
+  color: #fff;
   font-weight: 600;
   letter-spacing: 0.3;
 }
@@ -204,15 +202,45 @@ body {
   height: 12px;
 }
 .header__lang a {
-  color: #FFF;
   font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
-  letter-spacing: 0.2px;
+  color: #fff;
   color: #06255B;
 }
 
 .main {
   height: 1000px;
+}
+
+.main__countainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1700px;
+  padding: 0px 316px 0px 166px;
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+
+.main__body {
+  margin: 140px 0px 340px;
+}
+
+.main__title {
+  font-family: sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: -1.465px;
+  color: #F7F7F7;
+}
+.main__title span {
+  font-family: sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: -1.465px;
+  color: #F7F7F7;
+  font-weight: 700;
 }/*# sourceMappingURL=Mollenhauer-style.css.map */
