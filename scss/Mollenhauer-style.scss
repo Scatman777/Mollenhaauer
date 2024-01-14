@@ -137,7 +137,16 @@ body {
 }
 
 .main__body {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
     margin: 140px 0px 340px;
+}
+
+.main__block-info {
+    max-width: 723px;
+    width: 100%;
+    height: 100%;
 }
 
 .main__title {
@@ -189,7 +198,12 @@ body {
 }
 
 .main__block-invertedSquare {
+    width: 100%;
 }
 
 .main__invertedSquare {
+    &:nth-child(1) {
+        width: 230px;
+        height: 230px;
+    }
 }
