@@ -7,7 +7,7 @@ $colorNightBlue: #06255B;
 
 html,
 body {
-    font-family: "MinionPro", "SourceSansPro", sans-serif;
+    font-family: sans-serif;
     height: 100%;
     width: 100%;
 }
@@ -44,6 +44,12 @@ body {
 }
 
 .header__countainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    padding-left: 15px;
+    box-sizing: content-box;
+    margin: 0 auto;
 }
 
 .header__body {
@@ -54,6 +60,8 @@ body {
 }
 
 .header__logo {
+    margin-bottom: 55px;
+
 	img {
 		width: 263px;
 		height: 46px;

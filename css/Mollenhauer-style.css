@@ -86,27 +86,13 @@ h6 {
 }
 
 @font-face {
-  font-family: "SourceSansPro";
-  src: local("SourceSansPro"), url(./fonts/SourceSansPro-Regular.otf) format(otf);
-}
-@font-face {
-  font-family: "SourceSansPro";
-  src: local("SourceSansPro"), url(./fonts/SourceSansPro-Semibold.otf) format(otf);
-  font-weight: 600;
-}
-@font-face {
-  font-family: "SourceSansPro";
-  src: local("SourceSansPro"), url(./fonts/SourceSansPro-Bold.otf) format(otf);
-  font-weight: 700;
-}
-@font-face {
   font-family: "MinionPro";
   src: local("MinionPro"), url(./fonts/MinionPro-MediumIt.woff) format(woff);
-  font-weight: 500;
+  font-weight: 400;
 }
 html,
 body {
-  font-family: "MinionPro", "SourceSansPro", sans-serif;
+  font-family: sans-serif;
   height: 100%;
   width: 100%;
 }
@@ -141,6 +127,15 @@ body {
   background: none;
 }
 
+.header__countainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1600px;
+  padding-left: 15px;
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+
 .header__body {
   display: flex;
   justify-content: space-between;
@@ -148,6 +143,9 @@ body {
   padding-top: 55px;
 }
 
+.header__logo {
+  margin-bottom: 55px;
+}
 .header__logo img {
   width: 263px;
   height: 46px;
@@ -161,7 +159,7 @@ body {
 
 .header__item a {
   color: #FFF;
-  font-family: Source Sans Pro;
+  font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
@@ -179,7 +177,7 @@ body {
 }
 .header__button a {
   color: #FFF;
-  font-family: Source Sans Pro;
+  font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
@@ -207,7 +205,7 @@ body {
 }
 .header__lang a {
   color: #FFF;
-  font-family: Source Sans Pro;
+  font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
