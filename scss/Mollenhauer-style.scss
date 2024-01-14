@@ -142,6 +142,7 @@ body {
 
 .main__title {
     @include h1;
+    margin-bottom: 24px;
 
     span {
         @include h1;
@@ -150,10 +151,38 @@ body {
 }
 
 .main__text {
+    @include text-25px;
+    width: 623px;
+    margin-bottom: 28px;
 }
 
 .main__button-column {
+    display: flex;
+    gap: 16px;
 }
 
 .main__button {
+    &:nth-child(1) {
+        width: 215px;
+        background-color: rgba(6, 37, 91, 0.60);
+        border: 2px solid $colorWhite;
+        padding: 17px 18px;
+
+        a {
+            @include text-15px;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+        }
+    }
+
+    &:nth-child(2) {
+        width: 135px;
+        background-color: $colorWhite;
+        padding: 17px 18px;
+
+        a {
+            @include text-15px;
+            color: $colorNightBlue;
+        }
+    }
 }

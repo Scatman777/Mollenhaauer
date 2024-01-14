@@ -229,18 +229,63 @@ body {
 
 .main__title {
   font-family: sans-serif;
-  font-size: 64px;
+  font-size: 44px;
   font-weight: 400;
   line-height: 110%;
   letter-spacing: -1.465px;
   color: #F7F7F7;
+  margin-bottom: 24px;
 }
 .main__title span {
   font-family: sans-serif;
-  font-size: 64px;
+  font-size: 44px;
   font-weight: 400;
   line-height: 110%;
   letter-spacing: -1.465px;
   color: #F7F7F7;
   font-weight: 700;
+}
+
+.main__text {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 110%;
+  color: #fff;
+  width: 623px;
+  margin-bottom: 28px;
+}
+
+.main__button-column {
+  display: flex;
+  gap: 16px;
+}
+
+.main__button:nth-child(1) {
+  width: 215px;
+  background-color: rgba(6, 37, 91, 0.6);
+  border: 2px solid #fff;
+  padding: 17px 18px;
+}
+.main__button:nth-child(1) a {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+.main__button:nth-child(2) {
+  width: 135px;
+  background-color: #fff;
+  padding: 17px 18px;
+}
+.main__button:nth-child(2) a {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #fff;
+  color: #06255B;
 }/*# sourceMappingURL=Mollenhauer-style.css.map */
