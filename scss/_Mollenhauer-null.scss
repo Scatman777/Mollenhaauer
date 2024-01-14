@@ -89,18 +89,18 @@ h6 {
 
 @font-face {
 	font-family: "SourceSansPro";
-	src: local("SourceSansPro"), url(./fonts/SourceSansPro-Regular.woff) format(woff);
+	src: local("SourceSansPro"), url(./fonts/SourceSansPro-Regular.otf) format(otf);
   }
   
 @font-face {
 	font-family: "SourceSansPro";
-	src: local("SourceSansPro"), url(./fonts/SourceSansPro-Semibold.woff) format(woff);
+	src: local("SourceSansPro"), url(./fonts/SourceSansPro-Semibold.otf) format(otf);
 	font-weight: 600;
 }
   
 @font-face {
 	font-family: "SourceSansPro";
-	src: local("SourceSansPro"), url(./fonts/SourceSansPro-Bold.woff) format(woff);
+	src: local("SourceSansPro"), url(./fonts/SourceSansPro-Bold.otf) format(otf);
 	font-weight: 700;
 }
 
