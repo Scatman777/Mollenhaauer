@@ -37,7 +37,7 @@
 
 // convertText('');
 
-const getNumberExplanation = () => {
+// const getNumberExplanation = () => {
   // if (666 === 'devil number') {
   //   console.log('devil number');
   // } else if (42 ==='answer for everything') {
@@ -64,3 +64,16 @@ const getNumberExplanation = () => {
 // };
 
 // getNumberExplanation();
+
+const printNumbers = (initialNumber = 4) => {
+  let i = 1;
+
+  while (i <= initialNumber) {
+    console.log(i);
+    i = i - 1;
+  }
+
+  console.log('finished!');
+};
+
+printNumbers();

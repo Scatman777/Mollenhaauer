@@ -225,26 +225,37 @@ body {
 }
 
 .main__invertedSquare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
+    transform: rotate(45deg);
 
     &:nth-child(1) {
-        background-color: $colorNightBlue;
-        border: 6px solid $colorWhite;
         width: 230px;
         height: 230px;
+        top: 210px;
+        right: 316px;
+        background-color: #06255b75;
+        border: 6px solid $colorWhite;
     }
 
     &:nth-child(2) {
         width: 176px;
         height: 188px;
+        top: 400px;
+        right: 537px;
     }
 
     &:nth-child(3) {
         width: 270px;
         height: 270px;
+        top: 520px;
+        right: 316px;
     }
 
     span {
+        transform: rotate(315deg);
         @include text-21px;
     }
 }

@@ -321,23 +321,34 @@ body {
 }
 
 .main__invertedSquare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
+  transform: rotate(45deg);
 }
 .main__invertedSquare:nth-child(1) {
-  background-color: #06255B;
-  border: 6px solid #fff;
   width: 230px;
   height: 230px;
+  top: 210px;
+  right: 316px;
+  background-color: rgba(6, 37, 91, 0.4588235294);
+  border: 6px solid #fff;
 }
 .main__invertedSquare:nth-child(2) {
   width: 176px;
   height: 188px;
+  top: 400px;
+  right: 537px;
 }
 .main__invertedSquare:nth-child(3) {
   width: 270px;
   height: 270px;
+  top: 520px;
+  right: 316px;
 }
 .main__invertedSquare span {
+  transform: rotate(315deg);
   font-family: sans-serif;
   font-size: 21px;
   font-weight: 900;
