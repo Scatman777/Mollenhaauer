@@ -15,6 +15,14 @@
 	color: $colorWhite;
 }
 
+@mixin text-21px {
+	font-family: sans-serif;
+	font-size: 21px;
+	font-weight: 900;
+	line-height: 85%;
+	color: $colorWhite;
+}
+
 @mixin text-15px {
 	font-family: sans-serif;
 	font-size: 15px;

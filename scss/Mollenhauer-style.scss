@@ -222,16 +222,29 @@ body {
 }
 
 .main__block-invertedSquare {
-    width: 100%;
 }
 
 .main__invertedSquare {
+    position: absolute;
+
     &:nth-child(1) {
+        background-color: $colorNightBlue;
+        border: 6px solid $colorWhite;
         width: 230px;
         height: 230px;
     }
 
     &:nth-child(2) {
-        width: ;
+        width: 176px;
+        height: 188px;
+    }
+
+    &:nth-child(3) {
+        width: 270px;
+        height: 270px;
+    }
+
+    span {
+        @include text-21px;
     }
 }
