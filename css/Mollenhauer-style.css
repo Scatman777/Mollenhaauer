@@ -276,6 +276,7 @@ body {
   background-color: rgba(6, 37, 91, 0.6);
   border: 2px solid #fff;
   padding: 17px 18px;
+  transition: all 0.3s;
 }
 .main__button:nth-child(1) a {
   font-family: sans-serif;
@@ -285,11 +286,21 @@ body {
   color: #fff;
   font-weight: 600;
   letter-spacing: 0.3px;
+  transition: all 0.3s;
+}
+.main__button:nth-child(1):hover {
+  background-color: #fff;
+  transition: all 0.3s;
+}
+.main__button:nth-child(1):hover a {
+  color: #06255B;
+  transition: all 0.3s;
 }
 .main__button:nth-child(2) {
   width: 135px;
   background-color: #fff;
   padding: 17px 18px;
+  transition: all 0.3s;
 }
 .main__button:nth-child(2) a {
   font-family: sans-serif;
@@ -298,6 +309,15 @@ body {
   line-height: 18px;
   color: #fff;
   color: #06255B;
+  transition: all 0.3s;
+}
+.main__button:nth-child(2):hover {
+  background-color: #ABB5C7;
+  transition: all 0.3s;
+}
+.main__button:nth-child(2):hover a {
+  color: #fff;
+  transition: all 0.3s;
 }
 
 .main__block-invertedSquare {

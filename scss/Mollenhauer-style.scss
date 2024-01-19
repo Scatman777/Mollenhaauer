@@ -177,11 +177,23 @@ body {
         background-color: rgba(6, 37, 91, 0.60);
         border: 2px solid $colorWhite;
         padding: 17px 18px;
+        transition: all 0.3s;
 
         a {
             @include text-15px;
             font-weight: 600;
             letter-spacing: 0.3px;
+            transition: all 0.3s;
+        }
+
+        &:hover {
+            background-color: $colorWhite;
+            transition: all 0.3s;
+
+            a {
+                color: $colorNightBlue;
+                transition: all 0.3s;
+            }
         }
     }
 
@@ -189,10 +201,22 @@ body {
         width: 135px;
         background-color: $colorWhite;
         padding: 17px 18px;
+        transition: all 0.3s;
 
         a {
             @include text-15px;
             color: $colorNightBlue;
+            transition: all 0.3s;
+        }
+
+        &:hover {
+            background-color: #ABB5C7;
+            transition: all 0.3s;
+
+            a {
+                color: $colorWhite;
+                transition: all 0.3s;
+            }
         }
     }
 }
@@ -205,5 +229,9 @@ body {
     &:nth-child(1) {
         width: 230px;
         height: 230px;
+    }
+
+    &:nth-child(2) {
+        width: ;
     }
 }
